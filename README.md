@@ -14,7 +14,7 @@ This is a lane detection algorithm specially design for ETS
 - Game : Euro Truck Simulator 2
 - opencv : 4.0.x
 
-## [Requirements](github.com/se7ven012/ETS-Lane-Detection/blob/master/requirements.txt)
+## [Requirements](requirements.txt)
 
 - numpy
 - cv2
@@ -22,7 +22,7 @@ This is a lane detection algorithm specially design for ETS
 - win32gui
 - pywin32
 
-## [Test](github.com/se7ven012/ETS-Lane-Detection/blob/master/src/test/test.py)
+## [Test](src/test/test.py)
 
 Open the mp4 file in folder named "imgs" by any software.
 then run the follow command.
