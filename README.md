@@ -7,7 +7,7 @@ This is a lane detection algorithm specially design for ETS
   - [Requirements](#requirements)
   - [Test](#test)
 
-## Environment
+## [Environment]
 
 - OS : Windows
 - Python version : 3.x
