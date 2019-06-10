@@ -1,7 +1,8 @@
 import re
-import numpy
-import cv2
+
 import PIL.ImageGrab
+import cv2
+import numpy
 import win32gui
 
 

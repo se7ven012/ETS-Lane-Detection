@@ -1,13 +1,10 @@
-import time
-
-import numpy as np
 import cv2
 
 import base
 
 
 def funcname(parameter_list):
-    pass
+    
 
 
 def main():
