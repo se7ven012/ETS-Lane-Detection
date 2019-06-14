@@ -1,20 +1,17 @@
 import cv2
 
 import base
-
-
-def funcname(parameter_list):
-    
+import windowsBase
 
 
 def main():
-    win = base.getWinFromTitle(base.getWins(), "Simulator")
+    win = base.getWinFromTitle(windowsBase.getWins(), "Simulator")
     if not win:
         print("can't find the window", end='')
         return False
 
     while True:
-        image = base.getWinPic(win[0])
+        image = windowsBase.getWinPic(win[0])
         if image is False:
             print("can't get image", end="")
             break

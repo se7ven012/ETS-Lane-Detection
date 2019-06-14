@@ -1,23 +1,35 @@
 import cv2
-import gtk
+
+import base
+import linuxbase
 
 
-window = gtk.gdk.devices_list()
-print(window)
-# shape = window.get_size()
+def main():
+    win = base.getWinFromTitle(linuxbase.getWins(), "code")
+    if not win:
+        print("can't find the window", end='')
+        return False
 
-# print("The size of the window is %d x %d" % shape)
+    while True:
+        image = linuxbase.getWinPic(win[0], True)
+        if image is False:
+            print("can't get image", end="")
+            break
 
-# pb = gtk.gdk.Pixbuf(gtk.gdk.COLORSPACE_RGB, False, 8, shape[0], shape[1])
-# pb = pb.get_from_drawable(window, window.get_colormap(),
-#                           0, 0, 0, 0, shape[0], shape[1])
+        src = base.cvtPIL(image, cv2.COLOR_RGB2GRAY)
 
-# if (pb is not None):
-#     print(pb.save("1.png", "png"))
-#     print("Screenshot saved to screenshot.png.")
-# else:
-#     print("Unable to get the screenshot.")
+        # gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        # canny = cv2.Canny(gray, 127, 255)
 
-# src = cv2.imread("1.png")
-# cv2.imshow("src", src)
-# cv2.waitKey(0)
+        cv2.imshow("src", src)
+        # cv2.imshow("gray", gray)
+        # cv2.imshow("canny", canny)
+
+        if cv2.waitKey(1) == 27:
+            break
+
+    cv2.destroyAllWindows()
+
+
+if __name__ == "__main__":
+    main()
