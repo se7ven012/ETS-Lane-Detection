@@ -34,7 +34,7 @@ the first one, use the xlib package and need install these following packages.
 - python-xlib
 - ewmh
 
-the other one, use the third-party package called 'maim' and it [Installation](https://github.com/naelstrof/maim).
+the other one, use the third-party package called 'maim' and it's [Installation](https://github.com/naelstrof/maim).
 
 - maim
 
