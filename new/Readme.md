@@ -1,7 +1,7 @@
 建立一个resizeddata文件夹
 然后直接跑
 
-###库:
+### 库:
 *os
 *pandas
 *numpy
