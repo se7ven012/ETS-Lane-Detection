@@ -2,11 +2,11 @@
 然后直接跑
 
 ### 库:
-*os
-*pandas
-*numpy
-*cv2
-*matplotlib
-*PIL
-*sklearn
-*keras
+* os
+* pandas
+* numpy
+* cv2
+* matplotlib
+* PIL
+* sklearn
+* keras
