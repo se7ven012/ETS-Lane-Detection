@@ -6,6 +6,7 @@ This is an object detection algorithm specially design for ETS
   - [Environment](#environment)
   - [Requirements](#requirements)
   - [Test](#test)
+  - [Demo]
 
 ## Environment
 
@@ -30,4 +31,4 @@ then run the follow command.
 ```bash
 .../> cd (Path)/ETS-Lane-Detection/src> python yolo_video.py
 ```
-## [Demo](demo.gif)
+## [Demo]
