@@ -1,9 +1,7 @@
+numpy
 opencv-python
 opencv-contrib-python
 pillow
-win32gui
-pywin32
-numpy
+scipy
 tensorflow-gpu
 keras
-scipy
