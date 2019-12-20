@@ -4,3 +4,7 @@ opencv-contrib-python
 PIL
 win32gui
 pywin32
+numpy
+tensorflow-gpu
+keras
+scipy
