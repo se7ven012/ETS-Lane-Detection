@@ -1,7 +1,6 @@
-numpy
 opencv-python
 opencv-contrib-python
-PIL
+pillow
 win32gui
 pywin32
 numpy
