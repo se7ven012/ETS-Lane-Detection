@@ -1,0 +1,7 @@
+Truck
+Bus
+Car
+FireEngine
+SpecialVehicle
+SignalLight
+
