@@ -6,7 +6,7 @@ This is an object detection algorithm specially design for ETS
   - [Environment](#environment)
   - [Requirements](#requirements)
   - [Test](#test)
-  - [Demo]
+  - [Demo](#demo)
 
 ## Environment
 
