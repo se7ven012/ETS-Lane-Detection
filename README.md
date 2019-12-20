@@ -32,4 +32,6 @@ then run the follow command.
 .../> cd (Path)/ETS-Lane-Detection/src> python yolo_video.py
 ```
 ## Demo
-demo.gif
+<div align="center">
+  <img src=demo.gif/>
+</div>
