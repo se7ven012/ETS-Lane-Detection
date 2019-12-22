@@ -23,7 +23,7 @@ This is an object detection algorithm specially design for ETS
 - tensorflow-gpu : 1.13.1
 - keras : 2.3.1
 
-## [Test](src/test/test.py)
+## [Test](src/yolo_video.py)
 
 Open the mp4 file in folder named "imgs" by any software.
 then run the follow command.
