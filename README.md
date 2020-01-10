@@ -1,6 +1,7 @@
 # ETS-Lane-Detection
 
-This is an object detection algorithm specially design for ETS
+This is an object detection algorithm specially design for ETS(Incomplete)
+[LaneNet](https://arxiv.org/pdf/1807.01726.pdf)
 
 - [ETS-Lane-Detection](#ets-lane-detection)
   - [Environment](#environment)
